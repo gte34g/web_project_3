@@ -1,0 +1,30 @@
+.cover__content-subtitle {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: normal;
+    padding: 0;
+    margin: 0 auto 0;
+}
+
+.cover__content-subtitle:nth-last-of-type(1) {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .cover__content-subtitle{
+        font-size: 14px;
+        align-self: center;
+        margin: 0 20px;
+        width: 280px;
+        line-height: 114%;
+    }
+    .cover__content-subtitle:nth-last-of-type(1) {
+        margin-bottom: 16px;
+    }
+    .cover__content-subtitle:nth-last-of-type(3) {
+        margin-top: 16px;
+    }
+}

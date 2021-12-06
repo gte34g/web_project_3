@@ -1,0 +1,21 @@
+.cover__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:320px) {
+    .cover__content {
+        max-width: 288px;
+        height: 163px;
+        margin: 46px 16px 45px;
+        top: 0%;
+        left: 0%;
+        transform: translate(-0%, -0%);
+    }
+    
+}

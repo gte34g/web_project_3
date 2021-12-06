@@ -1,0 +1,28 @@
+.place {
+    display: grid;
+    /* justify-content: space-evenly; */
+    grid-template-columns: repeat(2 40px);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "title artist"
+    "image paragraph-first"
+    "image paragraph-second"
+    "nft paragraph-third";
+
+    margin-bottom: 80px;
+}
+
+
+@media screen and (max-width:768px) {
+    .place {
+        max-height: auto;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .places {
+        max-width: 288px;
+        flex-direction: column;
+        grid-auto-columns: 1fr fit-content(288px);
+    }
+}
