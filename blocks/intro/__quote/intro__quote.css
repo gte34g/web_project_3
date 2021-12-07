@@ -15,8 +15,7 @@
     .intro__quote {
         font-size: 1.5rem;
         font-weight: 400;
-        max-height: 240px;
-        margin: 0 auto 10px;
+        margin: 0 0 10px;
         line-height: 125%;
         padding: 0;
     }

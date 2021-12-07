@@ -1,7 +1,9 @@
 .place__nft {
+    
     display: flex;
     justify-content: center;
-    grid-area: nft;
+    grid-column: 1;
+    grid-row: 4;
     align-self: flex-end;
     text-decoration: none;
     background-color: #0278fe;
@@ -9,7 +11,6 @@
     color: #fff;
     font-weight: 600;
     border-radius: 4px;
-    max-height: 48px;
     max-width: 248px;
     margin-top: 48px;
 }
@@ -20,14 +21,18 @@
 
 @media screen and (max-width:768px) {
     .place__nft {
-        grid-row-end: 3;
+        grid-row: 3;
+        /* align-self: center */
+        
     }
 }
 
 @media screen and (min-width:320px) and (max-width:425px) {
     .place__nft {
+        font-size: 18px;
         max-width: 288px;
-        margin: 43px 16px 0;
+        padding: 13px 40px;
+        margin: 30px auto 0;
         grid-row:auto;
     }
 }

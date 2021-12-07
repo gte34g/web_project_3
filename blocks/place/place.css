@@ -1,15 +1,12 @@
 .place {
     display: grid;
-    /* justify-content: space-evenly; */
-    grid-template-columns: repeat(2 40px);
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "title artist"
-    "image paragraph-first"
-    "image paragraph-second"
-    "nft paragraph-third";
 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    flex-direction: column;
     margin-bottom: 80px;
+    column-gap: 40px;
+    row-gap: 25px;
 }
 
 

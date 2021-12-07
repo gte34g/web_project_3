@@ -2,15 +2,10 @@
     font-size: 54px;
     line-height: 58px;
     margin:0 0 40px;
-    
-    width: 49rem;
-    height: 7.25rem;
 }
 
 @media screen and (max-width:768px) {
     .intro__title {
-        width: 720px;
-        height: 174px;
         margin: auto;
     }
 }
@@ -20,6 +15,5 @@
         font-size: 32px;
         margin: 0 auto 40px;
         line-height: 109%;
-        max-width: 288px;
     }
 }

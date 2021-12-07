@@ -1,7 +1,7 @@
 .lead__image{
     position: relative;
     display: flex;
-    width: 984px;
+    width: 100vw;
     height: 615px;
     background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
     background-position: center;
@@ -35,7 +35,7 @@
 
 @media screen and (max-width:320px) {
     .lead__image{
-        width: 320px;
-        height: 200px;
+        max-width: 320px;
+        min-height: 200px;
     }
 }
