@@ -1,35 +1,9 @@
 .cover {
-    position: relative;
-    max-width: 1184px;
-    height: 740px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr;
     text-align: center;
-
+    align-content: center;
+    align-items: center;
+    max-width: 1184px;
 }
 
-.cover::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: .3;
-}
-
-.cover:hover::before {
-    background-color: #2A2C2F;
-    opacity: .8;
-}
-
-@media screen and (min-width:320px) and (max-width:425px) {
-    .cover {
-        position: relative;
-        width: 100vw;
-        height: 254px;
-        
-    }
-    
-}
