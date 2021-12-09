@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   src: url('/fonts/static/Inter-Regular.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   src: url('/fonts/static/Inter-Black.ttf') format('truetype');
-  font-weight: bold;
+  font-weight: 900;
 }
 
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   src: url('/fonts/static/Inter-SemiBold.ttf') format('truetype');
   font-weight: 600;
 }

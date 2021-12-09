@@ -21,14 +21,8 @@
     mix-blend-mode: hue;
 }
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (max-width:768px) {
     .lead__image{
-        width: 100vw;
-    }
-}
-
-@media screen and (max-width:425px) {
-    .lead__image {
         width: 100vw;
     }
 }
