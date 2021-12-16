@@ -2,22 +2,26 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
     z-index: 2;
-    grid-row: 1;
-    grid-column: 1;
     align-self: center;
     max-width: 656px;
-    margin: 0 auto;
+    margin: 243px auto;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:768px) {
     .cover__content {
-        max-width: 288px;
+        width: 100%;
+        height: 163px;
+        margin: 246px 16px;
+    } 
+}
+
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .cover__content {
+        width: 100%;
         height: 163px;
         margin: 46px 16px 45px;
-        top: 0%;
-        left: 0%;
-        transform: translate(-0%, -0%);
-    }
-    
+    } 
 }

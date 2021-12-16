@@ -18,6 +18,6 @@
         flex-direction: column;
         justify-content: center;
         margin: 62px auto;
-        max-width: 320px;
+        width: 320px;
     }
 } 

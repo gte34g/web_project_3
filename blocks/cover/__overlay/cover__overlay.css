@@ -1,6 +1,7 @@
 .cover__overlay {
     position: absolute;
-    max-width: 100vw;
+    width: 100%;
+    max-width: 1184px;
     height: 740px;
 }
 
@@ -23,8 +24,8 @@
 @media screen and (min-width:320px) and (max-width:425px) {
     .cover__overlay {
         position: relative;
-        width: 100vw;
-        height: 254px;
+        width: 100%;
+        height: 100%;
         
     }
     

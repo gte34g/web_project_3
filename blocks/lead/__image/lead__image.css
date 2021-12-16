@@ -1,7 +1,7 @@
 .lead__image{
     position: relative;
     display: flex;
-    width: 986px;
+    width: 100%;
     height: 615px;
     background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
     background-position: center;
@@ -21,15 +21,10 @@
     mix-blend-mode: hue;
 }
 
-@media screen and (max-width:768px) {
-    .lead__image{
-        width: 100vw;
-    }
-}
 
 @media screen and (max-width:320px) {
     .lead__image{
-        max-width: 320px;
-        min-height: 200px;
+        width: 100%;
+
     }
 }
