@@ -18,6 +18,7 @@
 @import url(../blocks/intro/__quote/intro__quote.css);
 @import url(../blocks/intro/__quote-author/intro__quote-author.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__content/intro__content.css);
 
 /* Photo Grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -36,7 +37,6 @@
 
 /* Cover */
 @import url(../blocks/cover/cover.css);
-
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__content-title/cover__content-title.css);
@@ -45,4 +45,4 @@
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/_copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

@@ -8,5 +8,6 @@
     .header__logo {
         max-width: 200px;
         max-height: 51.85px;
+        margin: 0 auto;
     }
 }
