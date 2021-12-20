@@ -1,18 +1,23 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 460px;
+    grid-auto-rows: repeat (5 1fr);
     flex-direction: column;
     margin-bottom: 80px;
     column-gap: 40px;
     row-gap: 48px;
+
+    grid-template-areas: 
+    "title artist"
+    "image paragraph"
+    "link paragraph";
 }
 
 
 @media screen and (max-width:768px) {
     .place {
         column-gap: 28px;
-        row-gap: 25px;
+        row-gap: 46px;
     }
 }
 

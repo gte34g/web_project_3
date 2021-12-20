@@ -11,6 +11,7 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__image-container/lead__image-container.css);
 
 /* Intro */
 @import url(../blocks/intro/__title/intro__title.css);
@@ -29,15 +30,17 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__website-wrapper/place__website-wrapper.css);
 @import url(../blocks/place/__artist/place__artist.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph-wrapper/place__paragraph-wrapper.css);
 @import url(../blocks/place/__nft/place__nft.css);
 @import url(../blocks/place/__image/place__image.css);
 
 /* Cover */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__background/cover__background.css);
+
 @import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__content-title/cover__content-title.css);
 @import url(../blocks/cover/__content-subtitle/cover__content-subtitle.css);

@@ -1,22 +1,6 @@
-.lead__image{
-    position: relative;
-    display: flex;
-
-}
-
-.lead__image img {
+.lead__image {
     max-width: 1184px;
     width: 100%;
     max-height: 615px;
 }
 
-.lead__image::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    mix-blend-mode: hue;
-}

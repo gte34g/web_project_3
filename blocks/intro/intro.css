@@ -1,9 +1,8 @@
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;;
+    justify-content: flex-start;
     margin: 90px 0 118px;
-    max-height: 30.6rem;
     max-width: 984px;
     width: 100%;
 }
@@ -13,7 +12,6 @@
         max-width: 720px;
         margin: 88px 24px 0;
         padding: 0;
-        max-height: 548px;
     }
 }
 
@@ -22,6 +20,5 @@
     .intro {
         margin: 3.75rem auto 5.625rem;
         max-width: 18rem;
-        max-height: 886px;
     }
 }
