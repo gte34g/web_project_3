@@ -1,5 +1,6 @@
 .place__website {
     grid-area: artist;
+    grid-column: 2;
     align-items: flex-end;
     align-self: flex-end;
     font-weight: normal;

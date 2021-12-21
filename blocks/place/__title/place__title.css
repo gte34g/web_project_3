@@ -14,18 +14,11 @@
     .place__title {
         max-width: 340px;
         font-size: 42px;
-        margin: 0;
         align-self: flex-end;
         grid-column-start: 1;
     }
 }
 
-@media screen and (min-width:427px) and (max-width:660px) {
-    .place__title {
-        grid-row: auto;
-        margin: 62px 0 0;
-    }
-}
 
 @media screen and (min-width:320px) and (max-width:425px) {
     .place__title {

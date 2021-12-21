@@ -1,7 +1,7 @@
 .place {
     display: grid;
-    grid-template-columns: 460px;
-    grid-auto-rows: repeat (5 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr;
     flex-direction: column;
     margin-bottom: 80px;
     column-gap: 40px;
@@ -9,21 +9,30 @@
 
     grid-template-areas: 
     "title artist"
-    "image paragraph"
-    "link paragraph";
+    "image text"
+    "nft text";
 }
 
 
 @media screen and (max-width:768px) {
     .place {
+        width: 720px;
         column-gap: 28px;
         row-gap: 46px;
+        margin: 0 auto 72px;
     }
 }
 
 @media screen and (min-width:427px) and (max-width:660px) {
     .place {
+        margin-top: 62px;
         width: 100%;
+        grid-template-areas: 
+        "title" 
+        "artist"
+        "image" 
+        "text"
+        "nft";
     }
 }
 
@@ -32,5 +41,11 @@
     .place {
         width: 100%;
         row-gap: 30px;
+        grid-template-areas: 
+        "title" 
+        "artist"
+        "image" 
+        "text"
+        "nft";
     }
 }
