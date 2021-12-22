@@ -1,32 +1,31 @@
 .place__nft {
-    grid-area: nft;
-    box-sizing:border-box;
-    display: flex;
-    justify-content: center;
-    grid-column: 1;
-    grid-row: auto;
-    align-content: flex-start;
-    align-self: flex-start;
-    text-decoration: none;
-    background-color: #0278fe;
-    padding: 13px 20px;
-    color: #fff;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 600;
-    border-radius: 4px;
-    max-width: 248px;
+  grid-area: nft;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: auto;
+  align-content: flex-start;
+  align-self: flex-start;
+  text-decoration: none;
+  background-color: #0278fe;
+  padding: 13px 20px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  border-radius: 4px;
+  max-width: 248px;
 }
 
-.place__nft:hover{
-    background-color: #0063D2;
+.place__nft:hover {
+  background-color: #0063d2;
 }
 
-@media screen and (min-width:320px) and (max-width:425px){
-    .place__nft{
-        max-width: 288px;
-        width: 100%;
-        font-size: 18px;
-        margin: 0 auto;
-    }
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .place__nft {
+    max-width: 288px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }

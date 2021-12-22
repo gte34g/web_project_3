@@ -1,17 +1,13 @@
-.body {
-    background-color: #2a2c2f
-}
-
 .page {
-    width: 100%;
-    max-width: 1230px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-    background-color: #2a2c2f;
-    padding: 0;
-    font-family: 'Inter',  sans-serif;
-    color: #fff;
+  width: 100%;
+  max-width: 1230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #2a2c2f;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  color: #fff;
 }
