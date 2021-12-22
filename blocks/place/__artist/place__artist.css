@@ -3,8 +3,6 @@
     line-height: 22px;
     margin: 8px 0 0;
     padding: 0;
-
-    border: 1px solid red;
 }
 
 .place__artist:nth-last-of-type(1) {
