@@ -22,7 +22,15 @@
   background-color: #0063d2;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 576px) {
+  .place__nft {
+    width: 100%;
+    margin: 0 auto;
+    grid-row: auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .place__nft {
     max-width: 288px;
     width: 100%;

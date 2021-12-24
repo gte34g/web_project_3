@@ -1,8 +1,0 @@
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .place__website-wrapper {
-    display: flex;
-    flex-direction: column;
-
-    margin: 0;
-  }
-}
