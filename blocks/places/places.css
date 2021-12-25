@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 736px;
-    margin: 88px 0 92px;
+    max-width: 720px;
+    margin: 0 0 92px;
   }
 }
 

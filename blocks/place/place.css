@@ -28,24 +28,8 @@
 
 @media screen and (max-width: 576px) {
   .place {
-    width: 100%;
     grid-template-columns: auto;
     margin-bottom: 50px;
-    row-gap: 30px;
-    grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "text"
-      "nft";
-  }
-}
-
-@media screen and (min-width:320px) and (max-width: 480px) {
-  .place {
-    grid-template-columns: auto;
-    margin-bottom: 50px;
-    width: 100%;
     row-gap: 30px;
     grid-template-areas:
       "title"
